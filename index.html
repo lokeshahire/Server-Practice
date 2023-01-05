@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <style>
+      #main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      }
+    </style>
   </head>
   <body>
     <h1>Hello</h1>
@@ -14,7 +21,7 @@
   </body>
 </html>
 <script>
-  let url = "https://delightful-pink-sheath-dress.cyclic.app/cars";
+  let url = "https://lazy-gray-magpie-tam.cyclic.app/lectures";
   fetch(url)
     .then((res) => res.json())
     .then((data) => {
@@ -24,14 +31,16 @@
 
   function getData(data) {
     let main = document.getElementById("main");
-
+    let div = document.createElement("div");
     data.forEach(function (el) {
       let image = document.createElement("img");
       image.src = el.img;
       let title = document.createElement("p");
       title.innerText = el.title;
 
-      main.append(image, title);
+      div.append(image, title);
     });
+
+    main.append(div);
   }
 </script>
