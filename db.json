@@ -1,0 +1,24 @@
+{
+  "lectures": [
+    {
+      "title": "React Native",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ5kpgmRbjBgAAwNalxEPXSe1IIa3DGVsB2A&usqp=CAU",
+      "id": "1"
+    },
+    {
+      "title": "Android",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZVEGlVtYOCYmJk3YPfhmINnTsAfZ8h4M3g&usqp=CAU",
+      "id": "2"
+    },
+    {
+      "title": "iOS",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEF8D8hKPhnYX3AIERI4ViHk5k7WNtyDwJw&usqp=CAU",
+      "id": "3"
+    },
+    {
+      "title": "Web",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8RFF15T8cAuB6ctgbNqk1wl1_Av148xp1A&usqp=CAU",
+      "id": "4"
+    }
+  ]
+}
